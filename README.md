@@ -31,13 +31,13 @@ The data used for the analysis performed in this paper was obtained directly fro
 
 Additionally, any observations with reported annual incomes over $200,000 were removed from the data due to these being a small number of cases that had incredible eﬀects on the assumptions for the models used. There were also three new categorical variables created from the existing data. One being “region”, which is the region of where the address given by the borrower is located, another being “emp_length_cat”, which indicates which of the several employment length categories the applicant falls into. Finally, “real_estate_col”was created and it is a binary variable that indicates whether the borrower has some form of real estate collateral or not. Below is a table of variable definitions: 
 
-![Variable Definitions]()
+![Variable Definitions](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/variable_defs.PNG?raw=true)
 
 ### Data Summaries
 
-![Loan Amount Density]()
+![Loan Amount Density](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/dens_amount.PNG?raw=true)
 
-![Loan Grade Distribution]()
+![Loan Grade Distribution](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/dens_grades.PNG?raw=true)
 
 ## Results
 
@@ -47,25 +47,25 @@ The forms the models used were based off of theoretical models and other empiric
 
 **First-Stage Output**
 
-![First-Stage Estimates 2008]()
+![First-Stage Estimates 2008](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/first_stage_08.PNG?raw=true)
 
 **Second-Stage Output**
 
-![Second-Stage Estimates 2008]()
+![Second-Stage Estimates 2008](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/second_stage_08.PNG?raw=true)
 
-![Income Effect 2008]()
+![Income Effect 2008](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/inc_08.PNG?raw=true)
 
 ### 2019
 
 **First-Stage Output**
 
-![First-Stage Estimates 2019]()
+![First-Stage Estimates 2019](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/first_stage_19.PNG?raw=true)
 
 **Second-Stage Output**
 
-![Second-Stage Estimates 2019]()
+![Second-Stage Estimates 2019](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/second_stage_19.PNG?raw=true)
 
-![Income Effect 2019]()
+![Income Effect 2019](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/inc_19.PNG?raw=true)
 
 ### Comparison
 
@@ -77,7 +77,7 @@ We also found that the relationship between loan demand and income had a quadrat
 
 Finally, the signiﬁcance of the categorical predictors were diﬀernt in 2008 than in 2019. However, it cannot be said with conﬁdence due to the instability of the 2019 model. The 2008 model does a noticeably better job at predicting the loan demand, withan R^2 of 0.1954 as compared to an R^2 of 0.149 for the 2019 model. Due to the structural change in the data and the diﬀerence in the magnitudes of effects on loan demand, there is ano bvious change in the market for loans on the LendingClub platform from during the Great Recession in 2008 to the pre-Great Lockdown in 2019. Below is a visualization of the non-linear demand curves in 2008 and 2019 that shows the relationships between interest rate and the loan demand, ceteris paribus
 
-![Demand Curves]()
+![Demand Curves](https://github.com/Joshuaingram/An-Analysis-of-the-Determinants-of-Loan-Demand/blob/master/images/demand%20curves.PNG?raw=true)
 
 ## Conclusion
 
